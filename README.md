@@ -1,5 +1,7 @@
 #Rocket Runners
 
+This repository has a lot of junk files, so the intention is to clean it up later when I don't have multiple assignments due.
+
 This is Rocket Runners. Race your friends and show them who deserves that sweet world domination.  It has controller enabled multiplayer and is to be played on the big screen. Wipe out your friends off the screen to claim the points for yourself.
 Hint: Hit a slope as you fall and you will go even faster forwards. Your downwards velocity is converted into forwards velocity. Basic physics!
 
