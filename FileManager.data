@@ -1,0 +1,797 @@
+[Files]
+(csproj)
+=$
+Assembly-CSharp-Editor
+Assembly-CSharp-firstpass
+Assembly-CSharp
+(data)
+FileManager
+(sln)
+Rocket Runners
+(suo)
+Rocket Runners.v12
+(cs)
++/Assets/Editor/CrossPlatformInput
+CrossPlatformInputInitialize
+=$/Assets/Example Games/2D Scrolling Shooter/Scripts
+Background
+Bullet
+DestroyArea
+Emitter
+Enemy
+Explosion
+Manager
+ObjectPool
+Player
+ShipResetScript
+Spaceship
+WaveScript
+=$/Assets/Example Games/Angry Birds Style/Scripts
+ProjectileDragging
+ProjectileFollow
+Resetter
+TargetDamage
+=$/Assets/Example Games/Flappy Bird Style/Scripts
+BirdScript
+CameraFollow
+ColumnScript
+ColumnSpawnScript
+GameControlScript
+ScrollScript
+=$/Assets/Example Games/Hat Trick - The Catch Game/Scripts
+HT_DestroyOnContact
+HT_Explode
+HT_GameController
+HT_HatController
+HT_Restart
+HT_Score
+HT_SetParticleSortingLayer
+HT_StartGame
+=$/Assets/Scripts/Terrain
+MeshGenerator
+=$/Assets/Standard Assets/CrossPlatformInput/Scripts
+AxisTouchButton
+ButtonHandler
+CrossPlatformInputManager
+InputAxisScrollbar
+Joystick
+MobileControlRig
+TiltInput
+TouchPad
+VirtualInput
++/PlatformSpecific
+MobileInput
+StandaloneInput
+=$/Assets/Standard Assets/ParticleSystems/Scripts
+AfterburnerPhysicsForce
+ExplosionFireAndDebris
+ExplosionPhysicsForce
+Explosive
+ExtinguishableParticleSystem
+FireLight
+Hose
+ParticleSystemMultiplier
+SmokeParticles
+WaterHoseParticles
+=$/Assets/Standard Assets/Utility
+ActivateTrigger
+AlphaButtonClickMask
+AutoMobileShaderSwitch
+AutoMoveAndRotate
+CameraRefocus
+CurveControlledBob
+DragRigidbody
+DynamicShadowSettings
+EventSystemChecker
+FollowTarget
+ForcedReset
+FOVKick
+FPSCounter
+LerpControlledBob
+ObjectResetter
+ParticleSystemDestroyer
+PlatformSpecificContent
+SimpleActivatorMenu
+SimpleMouseRotator
+SmoothFollow
+TimedObjectActivator
+TimedObjectDestructor
+WaypointCircuit
+WaypointProgressTracker
+(txt)
+=$/Assets/Example Games/2D Scrolling Shooter
+_ReadMe
++/Fonts/PressStart2P-Regular
+OFL
+=$/Assets/Example Games/Angry Birds Style
+_ReadMe
+=$/Assets/Example Games/Flappy Bird Style
+_ReadMe
+=$/Assets/Example Games/Hat Trick - The Catch Game
+_ReadMe
++/Fonts/LuckiestGuy
+LICENSE
+=$/Assets/Fonts/LuckiestGuy
+LICENSE
+=$/Assets/Fonts/PressStart2P-Regular
+OFL
+=$/Assets/Standard Assets/CrossPlatformInput
+CrossPlatformInputGuidelines
+=$/Assets/Standard Assets/Fonts/OpenSans
+License!
+=$/Assets/Standard Assets/ParticleSystems
+ParticleSystemsGuidelines
+(anim)
+=$/Assets/Example Games/2D Scrolling Shooter/Animations/Enemy
+ColorReset
+Damage
+Normal
+=$/Assets/Example Games/2D Scrolling Shooter/Animations/Explosion
+Explode
+=$/Assets/Example Games/2D Scrolling Shooter/Animations/Player
+Invincible
+Normal
+=$/Assets/Example Games/Flappy Bird Style/Animations
+Die
+Flap
+Idle
+(controller)
+=$/Assets/Example Games/2D Scrolling Shooter/Animations/Enemy
+Enemy
+=$/Assets/Example Games/2D Scrolling Shooter/Animations/Explosion
+Explosion
+=$/Assets/Example Games/2D Scrolling Shooter/Animations/Player
+Player
+=$/Assets/Example Games/Flappy Bird Style/Animations
+Bird
+(ttf)
+=$/Assets/Example Games/2D Scrolling Shooter/Fonts/PressStart2P-Regular
+PressStart2P-Regular
+=$/Assets/Example Games/Flappy Bird Style/Fonts
+LuckiestGuy
+=$/Assets/Example Games/Hat Trick - The Catch Game/Fonts/LuckiestGuy
+LuckiestGuy
+=$/Assets/Fonts/LuckiestGuy
+LuckiestGuy
+=$/Assets/Fonts/PressStart2P-Regular
+PressStart2P-Regular
+=$/Assets/Standard Assets/Fonts
+Unipix
++/OpenSans
+OpenSansBold
+OpenSansLight
+OpenSansRegular
+OpenSansSemibold
+=$/Assets/Zios.Themes.r487/Themes/Simplicity/Font
+Orkney-Medium-Fixed
+Sans-Chubgothic1
+(mat)
+=$/Assets/Example Games/2D Scrolling Shooter/Materials
+BackgroundBack
+BackgroundFront
+BackgroundMiddle
+=$/Assets/Example Games/Angry Birds Style/Materials
+CatapultBand
+SmokePuff
+=$/Assets/Example Games/Hat Trick - The Catch Game/Materials
+ExplosionParticle
+=$/Assets/Standard Assets/ParticleSystems/Materials
+ParticleAfterburner
+ParticleDuststorm
+ParticleFireball
+ParticleFirecloud
+ParticleFirework
+ParticleFlameLicks
+ParticleFlames
+ParticleGlow
+ParticleSmokeBlack
+ParticleSmokeMobile
+ParticleSmokeVertlit
+ParticleSmokeWhite
+ParticleSpark
+ParticleSplashes
+ParticleSpray
+ParticleSteam
+ParticleSteamMobile
+ParticleWaterSpray
+(prefab)
+=$/Assets/Example Games/2D Scrolling Shooter/Prefabs
+Enemy
+EnemyBullet
+Explosion
+Player
+PlayerBullet
+Wave 2
+Wave 3
+Wave 4
+Wave 5
+Wave
+=$/Assets/Example Games/Angry Birds Style/Prefabs
+PlankSprite
+=$/Assets/Example Games/Flappy Bird Style/Prefabs
+Bird
+BirdFollower
+Columns
+ColumnSpawner
+GameControl
+Scenery
+=$/Assets/Example Games/Hat Trick - The Catch Game/Prefabs
+Bomb
+BowlingBall
+Explosion
+=$/Assets/Standard Assets/CrossPlatformInput/Prefabs
+CarTiltControls
+DualTouchControls
+MobileAircraftControls
+MobileSingleStickControl
+MobileTiltControlRig
+=$/Assets/Standard Assets/ParticleSystems/Prefabs
+Afterburner
+DustStorm
+DustStormMobile
+Explosion
+ExplosionMobile
+FireComplex
+FireMobile
+Fireworks
+Flare
+FlareMobile
+Hose
+HoseMobile
+Smoke
+Steam
+SteamMobile
+TyreBurnoutSmoke
+WildFire
+=$/Assets/Standard Assets/Utility/Prefabs
+FramerateCounter
+(mp3)
+=$/Assets/Example Games/2D Scrolling Shooter/Sounds/BackgroundMusic
+BackgroundMusic
+(wav)
+=$/Assets/Example Games/2D Scrolling Shooter/Sounds/SoundEffects
+Boom
+Shoot
+=$/Assets/Example Games/Hat Trick - The Catch Game/Audio
+Explosion
+(png)
+=$/Assets/Example Games/2D Scrolling Shooter/Sprites/Bullet
+RetroBullet
+=$/Assets/Example Games/2D Scrolling Shooter/Sprites/Explosion
+RetroExplosion
+=$/Assets/Example Games/2D Scrolling Shooter/Sprites/Spaceship
+RetroSpaceship
+=$/Assets/Example Games/2D Scrolling Shooter/Textures
+SciFiBackgroundBackSprite
+SciFiBackgroundFrontSprite
+SciFiBackgroundMiddleSprite
+=$/Assets/Example Games/Angry Birds Style/Sprites
+AsteroidSprite
+BirdEnemyDeathSprite
+BirdEnemyIdleSprite
+CatapultSprite
+GrassThinSprite
+PlankSprite
+PuffSprite
+SkySprite
+=$/Assets/Example Games/Flappy Bird Style/Sprites
+BirdHero
+ColumnSprite
+GrassThinSprite
+SkyTileSprite
+=$/Assets/Example Games/Hat Trick - The Catch Game/Sprites
+BombSprite
+BowlingBallSprite
+ExplosionSprite
+GrassSprite
+HatBackSprite
+HatFrontSprite
+HatSplashSprite
+RestartHoverSprite
+RestartIdleSprite
+RestartPressSprite
+SkySprite
+StartHoverSprite
+StartIdleSprite
+StartPressSprite
+=$/Assets/Sprites
+AsteroidSprite
+BallSprite
+BirdEnemyDeathSprite
+BirdEnemyFlapSprite
+BirdEnemyIdleSprite
+BirdHeroSprite
+BombLitSprite
+BombSprite
+BowlingBallSprite
+CatapultBackSprite
+CatapultFrontSprite
+CatapultSprite
+ChainLinksSprite
+CoinSprite
+ColumnShortSprite
+ColumnSprite
+ExplosionSprite
+GrassSprite
+GrassThinSprite
+HatSprite
+IceSprite
+MagnetSprite
+PlankSprite
+PuffSprite
+RestartHoverSprite
+RestartIdleSprite
+RestartPressSprite
+RetroBullet
+RetroExplosion
+RetroSpaceship
+RocketSprite
+SkySprite
+SkyTileSprite
+SpringSprite
+StartHoverSprite
+StartIdleSprite
+StartPressSprite
+TruckChassisSprite
+TruckWheelSprite
+WeightSprite
+=$/Assets/Standard Assets/CrossPlatformInput/Sprites
+ButtonAcceleratorOverSprite
+ButtonAcceleratorUpSprite
+ButtonArrowOverSprite
+ButtonArrowUpSprite
+ButtonBrakeOverSprite
+ButtonBrakeUpSprite
+ButtonCameraCycleUpSprite
+ButtonResetSprite
+ButtonSpacebarSprite
+ButtonThumbstickOverSprite
+ButtonThumbstickUpSprite
+ButtonTimescaleFullUpSprite
+ButtonTimescaleSlowUpSprite
+SliderBackgroundSprite
+SliderHandleSprite
+TouchpadSprite
+=$/Assets/Standard Assets/ParticleSystems/Textures
+ParticleBokeh
+ParticleCloudBlack
+ParticleCloudWhite
+ParticleFireballSheet
+ParticleFirecloud
+ParticleFlameLickSheet
+ParticleFlamesSheet
+ParticleFlare
+Spark
+SplashesFineParticle
+SplashesLargeParticle
+=$/Assets/Zios.Themes.r487/Themes/Simplicity/Background
+ArrowDown
+ArrowLeft
+ArrowRight
+ArrowUp
+BorderBlack10
+BorderWhite10
+CancelButton
+CancelButtonActive
+CheckboxChecked
+CheckboxUnchecked
+Checkmark
+CheckmarkHover
+CircleWhite10
+Favorite
+IconBlackSqPlus
+IconWhiteTag50
+InspectorLocked
+InspectorLockedHover
+InspectorUnlocked
+InspectorUnlockedHover
+LineSolid3pxWhite
+LineSolid3pxWhite10
+Link
+Link50
+LinkBroken
+PaneOptions
+PaneOptionsHover
+PatternPlus
+Popup
+PopupActive
+PopupToolbar
+PopupToolbarSelected
+Search
+SearchActive
+Selector
+SelectorActive
+SimplicityThemeColor
+SimplicityThemeColorBorder
+SimplicityThemeColorDark
+SimplicityThemeColorDarkBorder
+SimplicityThemeColorLight
+SimplicityThemeColorLightBorder
+SolidBlack
+SolidBlack25
+SolidBlack50
+SolidBlack70
+SolidClear
+SolidRedBlack50
+SolidRedWarm50
+SolidTrimmedWhite70
+SolidWhite
+SolidWhite10
+SolidWhite25
+SolidWhite5
+SolidWhite50
+SolidWhite70
+TriangleDown
+TriangleLeft
+TriangleRight
+UnityWhite
+=$/Assets/Zios.Themes.r487/Themes/Simplicity/GUIContent
+CloudConnect
+CustomSorting
+eyeDropper.Large
+Favorite
+FilterByLabel
+FilterByType
+Folder Icon
+MoveTool on
+MoveTool
+PauseButton Anim
+PauseButton On
+PauseButton
+PlayButton Anim
+PlayButton On
+PlayButton
+PlayButtonProfile Anim
+PlayButtonProfile On
+PlayButtonProfile
+RectTool On
+RectTool
+RotateTool On
+RotateTool
+ScaleTool On
+ScaleTool
+StepButton Anim
+StepButton On
+StepButton
+Toolbar Minus
+Toolbar Plus
+ToolHandleCenter
+ToolHandleGlobal
+ToolHandleLocal
+ToolHandlePivot
+UnityEditor.HierarchyWindow
+ViewToolMove On
+ViewToolMove
+ViewToolOrbit On
+ViewToolOrbit
+ViewToolZoom On
+ViewToolZoom
+WaitSpin00
+WaitSpin01
+WaitSpin02
+WaitSpin03
+WaitSpin04
+WaitSpin05
+WaitSpin06
+WaitSpin07
+WaitSpin08
+WaitSpin09
+WaitSpin10
+WaitSpin11
+_Help
+_Popup
+(unity)
+=$/Assets/Example Games/2D Scrolling Shooter/_Scenes
+Main
+=$/Assets/Example Games/Angry Birds Style/_Scenes
+Main
+=$/Assets/Example Games/Flappy Bird Style/_Scenes
+Main
+=$/Assets/Example Games/Hat Trick - The Catch Game/_Scenes
+Hat Trick
+(physicsMaterial2D)
+=$/Assets/Example Games/Angry Birds Style/Physics Materials
+High Friction
+=$/Assets/Example Games/Hat Trick - The Catch Game/Physics Material
+BowlingBall
+(psd)
+=$/Assets/Example Games/Hat Trick - The Catch Game/Sprites
+Hat
+(shader)
+=$/Assets/Standard Assets/ParticleSystems/Shaders
+PriorityParticleAdd
+PriorityParticleAddSoft
+PriorityParticleAlpha
+(dll)
+=$/Assets/Zios.Themes.r487
+ZiosThemes
++/Editor
+ZiosThemesEditor
+(guiskin)
+=$/Assets/Zios.Themes.r487/Themes/@Default
+@Default
+ParticleSystemCurveEditor.s_Styles
+UnityEditor.AddComponentWindow.s_Styles
+UnityEditor.AddShaderVariantWindow+Styles
+UnityEditor.AnimationWindowStyles
+UnityEditor.AnnotationWindow.m_Styles
+UnityEditor.AppStatusBar
+UnityEditor.ASCommitWindow.constants
+UnityEditor.ASConfigWindow.constants
+UnityEditor.ASHistoryFileView.ms_Styles
+UnityEditor.ASMainWindow.constants
+UnityEditor.ASServerAdminWindow.constants
+UnityEditor.AssetBundleNameGUI+Styles
+UnityEditor.AssetSaveDialog.s_Styles
+UnityEditor.AssetStoreAssetInspector.styles
+UnityEditor.AssetStoreLoginWindow.styles
+UnityEditor.AudioMixerEffectGUI.styles
+UnityEditor.AudioMixerGroupTreeView.s_Styles
+UnityEditor.AudioMixersTreeView.s_Styles
+UnityEditor.AudioSourceInspector.ms_Styles
+UnityEditor.AvatarMappingEditor.styles
+UnityEditor.AvatarMappingEditor.s_Styles
+UnityEditor.AvatarMuscleEditor.styles
+UnityEditor.AvatarMuscleEditor.s_Styles
+UnityEditor.AvatarPreview.s_Styles
+UnityEditor.BillboardAssetInspector.Styles
+UnityEditor.BillboardAssetInspector.s_Styles
+UnityEditor.BlendTreeInspector.styles
+UnityEditor.BuildPlayerWindow.styles
+UnityEditor.BumpMapSettingsFixingWindow.s_Styles
+UnityEditor.CameraEditor+Styles
+UnityEditor.ColorPicker.styles
+UnityEditor.ColumnView.s_Styles
+UnityEditor.ConsoleWindow+Constants
+UnityEditor.ContainerWindow+Styles
+UnityEditor.CubemapPreview+Styles
+UnityEditor.CurveEditorWindow.ms_Styles
+UnityEditor.DuckVolumeGUI
+UnityEditor.Editor.s_Styles
+UnityEditor.EditorGUIExt.ms_Styles
+UnityEditor.EditorStyles.s_Current
+UnityEditor.EyeDropper.styles
+UnityEditor.FlexibleMenu.s_Styles
+UnityEditor.FrameDebuggerWindow.ms_Styles
+UnityEditor.FrameDebuggerWindow.styles
+UnityEditor.GameObjectTreeViewGUI.s_GOStyles
+UnityEditor.GameView+Styles
+UnityEditor.GradientEditor.s_Styles
+UnityEditor.GUIViewDebuggerWindow.s_Styles
+UnityEditor.HeapshotWindow.ms_Styles
+UnityEditor.HeapshotWindow.Styles
+UnityEditor.IconSelector.m_Styles
+UnityEditor.InspectorWindow.styles
+UnityEditor.InspectorWindow.s_Styles
+UnityEditor.InstructionOverlayWindow.s_Styles
+UnityEditor.Joint2DEditor.s_Styles
+UnityEditor.LayerVisibilityWindow.s_Styles
+UnityEditor.LayoutDropdownWindow.s_Styles
+UnityEditor.LightingWindow.styles
+UnityEditor.LightingWindow.s_Styles
+UnityEditor.LightingWindowLightmapPreviewTab.s_Styles
+UnityEditor.LightProbeProxyVolumeEditor+Styles
+UnityEditor.LODGroupGUI.Styles
+UnityEditor.LODGroupGUI.s_Styles
+UnityEditor.MaterialEditor+Styles
+UnityEditor.MemoryTreeList.m_Styles
+UnityEditor.MemoryTreeList.styles
+UnityEditor.ModelImporterClipEditor.styles
+UnityEditor.ModelImporterRigEditor.styles
+UnityEditor.ModuleUI
+UnityEditor.ObjectListArea.s_Styles
+UnityEditor.ObjectPreview.s_Styles
+UnityEditor.ObjectTreeForSelector.s_Styles
+UnityEditor.OcclusionCullingWindow.s_Styles
+UnityEditor.PackageExport+Styles
+UnityEditor.PackageImportTreeView+PackageImportTreeViewGUI+Constants
+UnityEditor.ParamEqGUI
+UnityEditor.PlayerSettingsEditor+Styles
+UnityEditor.PopupList.s_Styles
+UnityEditor.PragmaFixingWindow.s_Styles
+UnityEditor.ProfilerWindow.ms_Styles
+UnityEditor.ProjectBrowser.s_Styles
+UnityEditor.QualitySettingsEditor+Styles
+UnityEditor.RectHandles.s_Styles
+UnityEditor.RectTransformEditor.styles
+UnityEditor.RectTransformEditor.s_Styles
+UnityEditor.ReflectionProbeEditor+Styles
+UnityEditor.SceneFXWindow.s_Styles
+UnityEditor.SceneHierarchySortingWindow.s_Styles
+UnityEditor.SceneHierarchyWindow.s_Styles
+UnityEditor.SceneModeUtility.styles
+UnityEditor.SceneModeUtility.s_Styles
+UnityEditor.SceneRenderModeWindow+Styles
+UnityEditor.SceneView
+UnityEditor.SceneViewRotation.styles
+UnityEditor.SceneViewRotation.s_Styles
+UnityEditor.ScriptExecutionOrderInspector.m_Styles
+UnityEditor.ShaderInspector+Styles
+UnityEditor.ShaderInspectorPlatformsPopup+Styles
+UnityEditor.ShaderVariantCollectionInspector+Styles
+UnityEditor.ShadowCascadeSplitGUI
+UnityEditor.SketchUpImportDlg+Styles.styles
+UnityEditor.SketchUpImportDlg+Styles.s_Styles
+UnityEditor.SnapSettings.ms_Styles
+UnityEditor.StandardShaderGUI+Styles
+UnityEditor.TerrainInspector.styles
+UnityEditor.TextureInspector.s_Styles
+UnityEditor.TimeArea.styles
+UnityEditor.TimeControl.s_Styles
+UnityEditor.Toolbar+Styles
+UnityEditor.TreeViewGUI.s_Styles
+UnityEditor.TreeViewTests.TestGUICustomItemHeights+Styles
+UnityEditor.VersionControl.WindowPending.s_Styles
+UnityEditor.WebTemplateManagerBase.s_Styles
+UnityEditorInternal.Chart.ms_Styles
+UnityEditorInternal.DopeLine
+UnityEditorInternal.ProfilerHierarchyGUI.ms_Styles
+UnityEditorInternal.ProfilerHierarchyGUI.styles
+UnityEditorInternal.ProfilerTimelineGUI.ms_Styles
+UnityEditorInternal.ProfilerTimelineGUI.styles
+UnityEditorInternal.ReorderableListWithRenameAndScrollView.s_Styles
+=$/Assets/Zios.Themes.r487/Themes/Simplicity
+Simplicity
+UnityEditor.EditorStyles.s_Current
+UnityEditor.TreeViewGUI.s_Styles
+(unitytheme)
+=$/Assets/Zios.Themes.r487/Themes/@Default
+@Default
+=$/Assets/Zios.Themes.r487/Themes/Simplicity
+Simplicity
+(unitypalette)
+=$/Assets/Zios.Themes.r487/Themes/@Palettes
+Amazon
+Aquarium
+Crimson
+Darkness
+Elegance
+Forestry
+Grayson
+Lavender
+Leather
+Nightfall
+Patriot
+Recon
+Rusty
+Slate
+Solarized
+(guiContent)
+=$/Assets/Zios.Themes.r487/Themes/Simplicity
+UnityEditor.AppStatusBar.s_StatusWheel
+UnityEditor.EditorGUI+GUIContents
+UnityEditor.ProjectBrowser.s_Styles
+UnityEditor.SceneHierarchyWindow.s_Styles
+UnityEditor.Toolbar
+UnityEditor.Toolbar.s_PivotIcons
+UnityEditor.Toolbar.s_PivotRotation
+UnityEditor.Toolbar.s_PlayIcons
+UnityEditor.Toolbar.s_ShownToolIcons
+UnityEditor.Toolbar.s_ViewToolIcons
+UnityEditor.TreeViewGUI.s_Styles
+(otf)
++/Font
+Fixed-Aurulentsansmonoregular
+[Folders]
+=$
+
+
+
+
++/Assets
+
++/Editor
+
+=$/Assets
+
++/Example Games
+
++/2D Scrolling Shooter
+
++/Animations
+
+
+
+=$/Assets/Example Games/2D Scrolling Shooter
+
++/Fonts
+
+=$/Assets/Example Games/2D Scrolling Shooter
+
+
+
+
++/Sounds
+
+
+=$/Assets/Example Games/2D Scrolling Shooter
+
++/Sprites
+
+
+
+=$/Assets/Example Games/2D Scrolling Shooter
+
+
+=$/Assets/Example Games
+
++/Angry Birds Style
+
+
+
+
+
+
+=$/Assets/Example Games
+
++/Flappy Bird Style
+
+
+
+
+
+
+=$/Assets/Example Games
+
++/Hat Trick - The Catch Game
+
+
++/Fonts
+
+=$/Assets/Example Games/Hat Trick - The Catch Game
+
+
+
+
+
+
+=$/Assets
+
++/Fonts
+
+
+=$/Assets
+
++/Scripts
+
+=$/Assets
+
+
++/Standard Assets
+
++/CrossPlatformInput
+
+
++/Scripts
+
+=$/Assets/Standard Assets/CrossPlatformInput
+
+=$/Assets/Standard Assets
+
++/Fonts
+
+=$/Assets/Standard Assets
+
++/ParticleSystems
+
+
+
+
+
+=$/Assets/Standard Assets
+
++/Utility
+
+=$/Assets
+Zios.Themes
++/Zios.Themes.r487
+
+
++/Themes
+
+
+
++/Simplicity
+
+
+
